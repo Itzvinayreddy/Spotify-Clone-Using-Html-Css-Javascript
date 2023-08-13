@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Ubuntu&display=swap');
+body{
+  background-color: antiquewhite;
+  margin: 0px;
+  background-image:url("spotify-bg.png") ;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+*{
+  margin:0;
+  padding: 0;
+}
+nav{
+  font-family: 'Ubuntu',sans-sherif;
+
+}
+nav ul{
+  display: flex;
+  list-style-type: none;
+  height: 65px;
+  background-color: black;
+  color: antiquewhite;
+  align-items: center;
+
+
+}
+.brand img{
+  width: 44px;
+  padding: 0px 9px;
+
+}
+.brand{
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.3rem;
+
+}
+nav ul li{
+  padding: 0 12px;
+}
+.container{
+
+  min-height: 75vh;
+  background-color: black;
+  color: white;
+  font-family: 'varela round','sans-serif';
+  display: flex;
+  width: 70%;
+  margin: 23px auto;
+  opacity: 80%;
+  border-radius: 12px;
+}
+
+/* .bottom{
+  position: sticky;
+  height: 130px;
+  background-color: black;
+  bottom: 0px;
+
+
+} */
+.icons{
+  margin-top: 15px;
+
+}
+.icons i{
+  cursor: pointer;
+  margin-right: 10px;
+
+}
+.bottom{
+position: fixed;
+bottom: 0;
+width: 100%;
+background-color: black;
+padding: 20px;
+display: flex;
+align-items: center;
+flex-direction: column;
+justify-content: center;
+color: white;
+}
+
+#myProgressBar{
+  width: 100vw;
+}
